@@ -3,247 +3,284 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="style.css" />
+
     <title>Document</title>
   </head>
   <body>
     <div class="container">
-      <div class="top-banner">
-        <header class="header">
+      <header class="header">
+        <nav class="nav">
           <div class="logo">
             <p>SKS Funding</p>
           </div>
           <a href="#" class="btn btn--need-help">Need help</a>
-          <a href="#" class="notification">I</a>
-          <img class="profile-img-sm" src="" alt="Profile img" />
-        </header>
-        <div>
-          <img src="" alt="" class="profile-img" />
-          <div>
-            <p class="grating">Hi, Emma good morning 👋</p>
-            <p class="email">Email - akp.emma1231@gmail.com</p>
-            <p class="phone">Phone - +91-8897584843</p>
-            <p class="address">Address - Po Box 2103 Linden, NJ 07036 (USA)</p>
-            <p class="plan">Plan - $100</p>
-            <p class="join">Joined - Mon 22nd Feb 2019</p>
-          </div>
-          <div>
-            <div class="profile-completion">
-              <div class="progress"></div>
-              <div>
-                <p class="title">Profile Completion</p>
-                <p>Please complete profile</p>
-                <a href="#" class="btn">Complete</a>
-              </div>
-            </div>
-            <a href="#" class="camera">I</a>
-          </div>
-        </div>
-        <div>
-          <aside class="info">
-            <p class="heading">About my family</p>
-            <ul class="family">
-              <li>
-                <p>Covered persons</p>
-                <ul class="family-imgs">
-                  <li><img class="family-img" src="" /></li>
-                  <li><img class="family-img" src="" /></li>
-                </ul>
+          <a href="#" class="notification">
+            <ion-icon
+              class="notification-icon"
+              name="notifications-outline"
+            ></ion-icon>
+          </a>
+          <a href="#">
+            <img
+              class="profile-img-sm"
+              src="img/profile.png"
+              alt="Profile img"
+            />
+          </a>
+        </nav>
+
+        <div class="profile">
+          <img src="img/profile.png" alt="Photo of Emma" class="profile-img" />
+
+          <div class="bio">
+            <p class="greeting">Hi, Emma good morning 👋</p>
+            <ul class="bio-details">
+              <li class="bio-detail">
+                <span>Email - </span> akp.emma1231@gmail.com
               </li>
-              <li>
-                <p>Beneficiary persons</p>
-                <ul class="family-imgs">
-                  <li><img class="family-img" src="" /></li>
-                  <li><img class="family-img" src="" /></li>
-                  <li><img class="family-img" src="" /></li>
-                </ul>
+              <li class="bio-detail"><span>Phone - </span>+91-8897584843</li>
+              <li class="bio-detail">
+                <span>Address - </span> Po Box 2103 Linden, NJ 07036 (USA)
               </li>
-              <li>
-                <p>Emergency persons</p>
-                <ul class="family-imgs">
-                  <li><img class="family-img" src="" /></li>
-                  <li><img class="family-img" src="" /></li>
-                  <li><img class="family-img" src="" /></li>
-                  <li><img class="family-img" src="" /></li>
-                </ul>
+              <li class="bio-detail"><span>Plan - </span> $100</li>
+              <li class="bio-detail">
+                <span>Joined - </span> Mon 22nd Feb 2019
               </li>
             </ul>
-            <p class="heading">About me</p>
-            <p class="feild">Email</p>
-            <p class="feild-value">akp.emma1231@gmail.com</p>
-            <p class="feild">Phone</p>
-            <p class="feild-value">+91-8897554843</p>
-            <p class="feild">Address</p>
-            <p class="feild-value">Po Box 2103 Linden, NJ 07036 (USA)</p>
-            <p class="feild">Plan</p>
-            <p class="feild-value">$100</p>
-            <p class="feild">Joined</p>
-            <p class="feild-value">Mon 22nd Feb 2019</p>
-          </aside>
-          <div class="main">
-            <nav>
-              <ul class="main-nav">
-                <li class="nav-link">Dashboard</li>
-                <li class="nav-link">New claims</li>
-                <li class="nav-link">Completed claims</li>
-                <li class="nav-link">Past claims</li>
-                <li class="nav-link">Members</li>
-                <li class="nav-link">My claims</li>
-                <li class="nav-link btn btn--nav">Claim</li>
+          </div>
+
+          <div class="profile-completion">
+            <div class="progress">75%</div>
+            <div>
+              <p class="title">Profile Completion</p>
+              <p class="request">Please complete profile</p>
+              <a href="#" class="btn btn--complete">Complete</a>
+            </div>
+          </div>
+
+          <button class="camera">
+            <ion-icon class="camera-icon" name="camera-outline"></ion-icon>
+          </button>
+        </div>
+      </header>
+
+      <div>
+        <aside class="about">
+          <p class="heading">About my family</p>
+          <ul class="family">
+            <li>
+              <p>Covered persons</p>
+              <ul class="family-imgs">
+                <li><img class="family-img" src="" /></li>
+                <li><img class="family-img" src="" /></li>
               </ul>
-            </nav>
-            <div class="dashboard">
-              <div class="new-claims claims">
-                <span class="claim-number">23</span>
-                <div>
-                  <p>New claims</p>
-                  <div class="member-imgs">
-                    <img class="member-img" src="" />
-                    <img class="member-img" src="" />
-                    <img class="member-img" src="" />
-                    <img class="member-img" src="" />
-                  </div>
-                </div>
-              </div>
+            </li>
+            <li>
+              <p>Beneficiary persons</p>
+              <ul class="family-imgs">
+                <li><img class="family-img" src="" /></li>
+                <li><img class="family-img" src="" /></li>
+                <li><img class="family-img" src="" /></li>
+              </ul>
+            </li>
+            <li>
+              <p>Emergency persons</p>
+              <ul class="family-imgs">
+                <li><img class="family-img" src="" /></li>
+                <li><img class="family-img" src="" /></li>
+                <li><img class="family-img" src="" /></li>
+                <li><img class="family-img" src="" /></li>
+              </ul>
+            </li>
+          </ul>
+          <p class="heading">About me</p>
+          <p class="feild">Email</p>
+          <p class="feild-value">akp.emma1231@gmail.com</p>
+          <p class="feild">Phone</p>
+          <p class="feild-value">+91-8897554843</p>
+          <p class="feild">Address</p>
+          <p class="feild-value">Po Box 2103 Linden, NJ 07036 (USA)</p>
+          <p class="feild">Plan</p>
+          <p class="feild-value">$100</p>
+          <p class="feild">Joined</p>
+          <p class="feild-value">Mon 22nd Feb 2019</p>
+        </aside>
 
-              <div class="new-claims claims">
-                <span class="claim-number">76</span>
-                <div>
-                  <p>New members</p>
-                  <div class="member-imgs">
-                    <img class="member-img" src="" />
-                    <img class="member-img" src="" />
-                    <img class="member-img" src="" />
-                    <img class="member-img" src="" />
-                  </div>
-                </div>
-              </div>
-
-              <div class="new-claims claims">
-                <span class="claim-number">102</span>
-                <div>
-                  <p>Total claims</p>
-                  <div class="member-imgs">
-                    <img class="member-img" src="" />
-                    <img class="member-img" src="" />
-                    <img class="member-img" src="" />
-                    <img class="member-img" src="" />
-                  </div>
-                </div>
-              </div>
-
-              <div class="member">
-                <img src="" alt="" />
-                <div class="member-details">
-                  <p class="member-name">Amelia Kimani</p>
-                  <ul class="member-detail">
-                    <li>
-                      <span>I</span>
-                      <span>Filed - </span>
-                      <p>Thu, Jul 10, 2018 7:30 PM EDT</p>
-                    </li>
-                    <li>
-                      <span>I</span>
-                      <span>Due - </span>
-                      <p>Wed, Jul 23, 2019 12:30 PM</p>
-                    </li>
-                    <li>
-                      <span>I</span>
-                      <span>Address - </span>
-                      <p>Hillside Rd, Hiranandani...</p>
-                    </li>
-                  </ul>
-                </div>
-                <a href="#" class="btn btn--pay">Pay</a>
-              </div>
-
-              <div class="member">
-                <img src="" alt="" />
-                <div class="member-details">
-                  <p class="member-name">Genevieve Juma</p>
-                  <ul class="member-detail">
-                    <li>
-                      <span>I</span>
-                      <span>Filed - </span>
-                      <p>Thu, Jul 10, 2018 7:30 PM EDT</p>
-                    </li>
-                    <li>
-                      <span>I</span>
-                      <span>Due - </span>
-                      <p>Wed, Jul 23, 2019 12:30 PM</p>
-                    </li>
-                    <li>
-                      <span>I</span>
-                      <span>Address - </span>
-                      <p>Hillside Rd, Hiranandani...</p>
-                    </li>
-                  </ul>
-                </div>
-                <a href="#" class="btn btn--pay">Pay</a>
-              </div>
-              <div class="member">
-                <img src="" alt="" />
-                <div class="member-details">
-                  <p class="member-name">Theodore Wachira</p>
-                  <ul class="member-detail">
-                    <li>
-                      <span>I</span>
-                      <span>Filed - </span>
-                      <p>Thu, Jul 10, 2018 7:30 PM EDT</p>
-                    </li>
-                    <li>
-                      <span>I</span>
-                      <span>Due - </span>
-                      <p>Wed, Jul 23, 2019 12:30 PM</p>
-                    </li>
-                    <li>
-                      <span>I</span>
-                      <span>Address - </span>
-                      <p>Hillside Rd, Hiranandani...</p>
-                    </li>
-                  </ul>
-                </div>
-                <a href="#" class="btn btn--pay">Pay</a>
-              </div>
-
-              <div class="activity">
-                <p class="activity-heading">Activity</p>
-
-                <div class="activities">
-                  <p class="activity-title">Claimed $2000</p>
-                  <p class="activity-description">
-                    23 members are got claimed in washington DC
-                  </p>
-                  <p class="activity-time">05:40pm</p>
-                </div>
-
-                <div class="activities">
-                  <p class="activity-title">102 New Members</p>
-                  <p class="activity-description">
-                    We have 102 registrations check out their profiles
-                  </p>
-                  <p class="activity-time">05:40pm</p>
-                </div>
-
-                <div class="activities">
-                  <p class="activity-title">3 Claims are waiting</p>
-                  <p class="activity-description">
-                    Please contribute them, they are Waiting for your help
-                  </p>
-                  <p class="activity-time">05:40pm</p>
-                </div>
-
-                <div class="activities">
-                  <p class="activity-title">102 New Members</p>
-                  <p class="activity-description">
-                    We have 102 registrations check out their profiles
-                  </p>
-                  <p class="activity-time">05:40pm</p>
+        <div class="main">
+          <nav>
+            <ul class="main-nav">
+              <li class="nav-link">Dashboard</li>
+              <li class="nav-link">New claims</li>
+              <li class="nav-link">Completed claims</li>
+              <li class="nav-link">Past claims</li>
+              <li class="nav-link">Members</li>
+              <li class="nav-link">My claims</li>
+              <li class="nav-link btn btn--nav">Claim</li>
+            </ul>
+          </nav>
+          <section class="dashboard">
+            <div class="new-claims claims">
+              <span class="claim-number">23</span>
+              <div>
+                <p>New claims</p>
+                <div class="member-imgs">
+                  <img class="member-img" src="" />
+                  <img class="member-img" src="" />
+                  <img class="member-img" src="" />
+                  <img class="member-img" src="" />
                 </div>
               </div>
             </div>
-          </div>
+
+            <div class="new-claims claims">
+              <span class="claim-number">76</span>
+              <div>
+                <p>New members</p>
+                <div class="member-imgs">
+                  <img class="member-img" src="" />
+                  <img class="member-img" src="" />
+                  <img class="member-img" src="" />
+                  <img class="member-img" src="" />
+                </div>
+              </div>
+            </div>
+
+            <div class="new-claims claims">
+              <span class="claim-number">102</span>
+              <div>
+                <p>Total claims</p>
+                <div class="member-imgs">
+                  <img class="member-img" src="" />
+                  <img class="member-img" src="" />
+                  <img class="member-img" src="" />
+                  <img class="member-img" src="" />
+                </div>
+              </div>
+            </div>
+
+            <div class="member">
+              <img src="" alt="" />
+              <div class="member-details">
+                <p class="member-name">Amelia Kimani</p>
+                <ul class="member-detail">
+                  <li>
+                    <span>I</span>
+                    <span>Filed - </span>
+                    <p>Thu, Jul 10, 2018 7:30 PM EDT</p>
+                  </li>
+                  <li>
+                    <span>I</span>
+                    <span>Due - </span>
+                    <p>Wed, Jul 23, 2019 12:30 PM</p>
+                  </li>
+                  <li>
+                    <span>I</span>
+                    <span>Address - </span>
+                    <p>Hillside Rd, Hiranandani...</p>
+                  </li>
+                </ul>
+              </div>
+              <a href="#" class="btn btn--pay">Pay</a>
+            </div>
+
+            <div class="member">
+              <img src="" alt="" />
+              <div class="member-details">
+                <p class="member-name">Genevieve Juma</p>
+                <ul class="member-detail">
+                  <li>
+                    <span>I</span>
+                    <span>Filed - </span>
+                    <p>Thu, Jul 10, 2018 7:30 PM EDT</p>
+                  </li>
+                  <li>
+                    <span>I</span>
+                    <span>Due - </span>
+                    <p>Wed, Jul 23, 2019 12:30 PM</p>
+                  </li>
+                  <li>
+                    <span>I</span>
+                    <span>Address - </span>
+                    <p>Hillside Rd, Hiranandani...</p>
+                  </li>
+                </ul>
+              </div>
+              <a href="#" class="btn btn--pay">Pay</a>
+            </div>
+            <div class="member">
+              <img src="" alt="" />
+              <div class="member-details">
+                <p class="member-name">Theodore Wachira</p>
+                <ul class="member-detail">
+                  <li>
+                    <span>I</span>
+                    <span>Filed - </span>
+                    <p>Thu, Jul 10, 2018 7:30 PM EDT</p>
+                  </li>
+                  <li>
+                    <span>I</span>
+                    <span>Due - </span>
+                    <p>Wed, Jul 23, 2019 12:30 PM</p>
+                  </li>
+                  <li>
+                    <span>I</span>
+                    <span>Address - </span>
+                    <p>Hillside Rd, Hiranandani...</p>
+                  </li>
+                </ul>
+              </div>
+              <a href="#" class="btn btn--pay">Pay</a>
+            </div>
+
+            <div class="activity">
+              <p class="activity-heading">Activity</p>
+
+              <div class="activities">
+                <p class="activity-title">Claimed $2000</p>
+                <p class="activity-description">
+                  23 members are got claimed in washington DC
+                </p>
+                <p class="activity-time">05:40pm</p>
+              </div>
+
+              <div class="activities">
+                <p class="activity-title">102 New Members</p>
+                <p class="activity-description">
+                  We have 102 registrations check out their profiles
+                </p>
+                <p class="activity-time">05:40pm</p>
+              </div>
+
+              <div class="activities">
+                <p class="activity-title">3 Claims are waiting</p>
+                <p class="activity-description">
+                  Please contribute them, they are Waiting for your help
+                </p>
+                <p class="activity-time">05:40pm</p>
+              </div>
+
+              <div class="activities">
+                <p class="activity-title">102 New Members</p>
+                <p class="activity-description">
+                  We have 102 registrations check out their profiles
+                </p>
+                <p class="activity-time">05:40pm</p>
+              </div>
+            </div>
+          </section>
         </div>
       </div>
     </div>
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
   </body>
 </html>
