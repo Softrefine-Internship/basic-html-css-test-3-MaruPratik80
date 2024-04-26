@@ -60,7 +60,7 @@ body {
 .logo {
   font-size: 1.2rem;
   font-weight: 600;
-  color: #fefefe;
+  color: #eee;
   margin-right: auto;
   display: flex;
   align-items: center;
@@ -72,12 +72,13 @@ body {
 }
 
 .btn.btn--need-help {
-  background-color: rgba(255, 255, 255, 0.3);
+  color: #cdcdcd;
+  background-color: rgba(255, 255, 255, 0.2);
 }
 
 .notification-icon {
   font-size: 2.2rem;
-  color: #fefefe;
+  color: #cdcdcd;
   position: relative;
 }
 
@@ -142,11 +143,11 @@ body {
 
 .bio-detail {
   font-size: 1rem;
-  color: #fefefe;
+  color: #eee;
 }
 
 .bio-detail span {
-  color: #eee;
+  color: #cdcdcd;
 }
 
 .profile-completion {
@@ -154,7 +155,7 @@ body {
   align-items: center;
   gap: 1.2rem;
   padding: 2.2rem;
-  background-color: rgba(255, 255, 255, 0.3);
+  background-color: rgba(255, 255, 255, 0.2);
 }
 
 .progress {
@@ -170,6 +171,7 @@ body {
   height: 5.4rem;
   width: 5.4rem;
   background-color: #62777e;
+  background-color: #416069;
   border-radius: 50%;
   display: grid;
   place-items: center;
@@ -177,8 +179,9 @@ body {
 
 .progress-inner p {
   font-size: 1.2rem;
-  color: #fff;
+  color: #eee;
   background-color: #86949a;
+  background-color: #819196;
   height: 4.2rem;
   width: 4.2rem;
   border-radius: 50%;
@@ -193,7 +196,7 @@ body {
 }
 
 .profile-completion .request {
-  color: #eee;
+  color: #cdcdcd;
   font-size: 1rem;
   margin-bottom: 1.2rem;
 }
@@ -204,7 +207,7 @@ body {
 
 .camera {
   border: none;
-  background-color: rgba(255, 255, 255, 0.3);
+  background-color: rgba(255, 255, 255, 0.2);
   cursor: pointer;
   display: flex;
   align-items: center;
@@ -213,7 +216,7 @@ body {
 
 .camera-icon {
   font-size: 1.6rem;
-  color: #fefefe;
+  color: #cdcdcd;
 }
 
 /**************/
@@ -247,6 +250,7 @@ body {
 
 .about-icon {
   font-size: 1.4rem;
+  cursor: pointer;
   color: #999;
 }
 
@@ -333,15 +337,16 @@ body {
 
 .dashboard-icon {
   color: #1a1a1a;
-  font-size: 1.2rem;
+  font-size: 1.3rem;
 }
 
 .main-nav-list li:first-child .main-nav-link {
   color: #1a1a1a;
-  font-weight: 500;
+  font-weight: 600;
 }
 
 .main-nav-list li:first-child {
+  cursor: pointer;
   box-shadow: inset 0 -0.5px 0 #fca424, 0 1px 0 #fca424,
     0 0.8rem 0 rgba(0, 0, 0, 0.02);
   display: flex;
@@ -459,6 +464,14 @@ body {
   align-items: center;
   gap: 0.2rem;
   font-size: 1rem;
+}
+
+.icon-filed,
+.icon-due,
+.icon-address {
+  color: #cdcdcd;
+  font-size: 1.4rem;
+  margin-right: 0.8rem;
 }
 
 .member-detail span {
