@@ -16,390 +16,704 @@
     <title>Document</title>
   </head>
   <body>
-    <div class="canvas">
-      <div class="container">
-        <header class="header">
-          <nav class="nav">
-            <div class="logo">
-              <img
-                src="icon/icon-sks.png"
-                class="icon-sks"
-                alt="SKS Funding icon"
-              />
-              <p>SKS Funding</p>
+    <!-- <div class="canvas"> -->
+    <div class="container">
+      <header class="header">
+        <nav class="nav">
+          <div class="logo">
+            <img
+              src="icon/icon-sks.png"
+              class="icon-sks"
+              alt="SKS Funding icon"
+            />
+            <p>SKS Funding</p>
+          </div>
+          <a href="#" class="btn btn--need-help">Need help</a>
+          <a href="#" class="notification">
+            <ion-icon
+              class="notification-icon"
+              name="notifications-outline"
+            ></ion-icon>
+          </a>
+          <a href="#">
+            <img
+              class="profile-img-sm"
+              src="img/profile.png"
+              alt="Profile img"
+            />
+          </a>
+        </nav>
+
+        <div class="profile">
+          <img src="img/profile.png" alt="Photo of Emma" class="profile-img" />
+
+          <div class="bio">
+            <p class="greeting">Hi, Emma good morning 👋</p>
+            <ul class="bio-details">
+              <li class="bio-detail">
+                <span>Email - </span> akp.emma1231@gmail.com
+              </li>
+              <li class="bio-detail"><span>Phone - </span>+91-8897584843</li>
+              <li class="bio-detail">
+                <span>Address - </span> Po Box 2103 Linden, NJ 07036 (USA)
+              </li>
+              <li class="bio-detail"><span>Plan - </span> $100</li>
+              <li class="bio-detail">
+                <span>Joined - </span> Mon 22nd Feb 2019
+              </li>
+            </ul>
+          </div>
+
+          <div class="profile-completion">
+            <div class="progress">
+              <div class="progress-inner"><p>75%</p></div>
             </div>
-            <a href="#" class="btn btn--need-help">Need help</a>
-            <a href="#" class="notification">
-              <ion-icon
-                class="notification-icon"
-                name="notifications-outline"
-              ></ion-icon>
-            </a>
-            <a href="#">
-              <img
-                class="profile-img-sm"
-                src="img/profile.png"
-                alt="Profile img"
-              />
+            <div>
+              <p class="title">Profile Completion</p>
+              <p class="request">Please complete profile</p>
+              <a href="#" class="btn btn--complete">Complete</a>
+            </div>
+          </div>
+
+          <button class="camera">
+            <ion-icon class="camera-icon" name="camera-outline"></ion-icon>
+          </button>
+        </div>
+      </header>
+
+      <section class="section">
+        <aside class="about">
+          <div class="about-title">
+            <p>About my family</p>
+            <ion-icon class="about-icon" name="ellipsis-horizontal"></ion-icon>
+          </div>
+
+          <div class="about-family">
+            <div class="family-category">
+              <p class="family-category-title">Covered persons</p>
+              <div class="family-imgs">
+                <img class="family-img" src="img/c1.jpg" />
+                <img class="family-img" src="img/c2.jpg" />
+              </div>
+            </div>
+
+            <div class="family-category">
+              <p class="family-category-title">Beneficiary persons</p>
+              <div class="family-imgs">
+                <img class="family-img" src="img/b1.jpg" />
+                <img class="family-img" src="img/b2.jpg" />
+                <img class="family-img" src="img/b3.jpg" />
+              </div>
+            </div>
+
+            <div class="family-category">
+              <p class="family-category-title">Emergency persons</p>
+              <div class="family-imgs">
+                <img class="family-img" src="img/e1.jpg" />
+                <img class="family-img" src="img/e2.jpg" />
+                <img class="family-img" src="img/e3.jpg" />
+                <img class="family-img" src="img/profile.png" />
+              </div>
+            </div>
+          </div>
+
+          <div class="about-title">
+            <p>About me</p>
+            <ion-icon class="about-icon" name="ellipsis-horizontal"></ion-icon>
+          </div>
+
+          <div class="about-me">
+            <div class="about-me-info">
+              <span>Email</span>
+              <p>akp.emma1231@gmail.com</p>
+            </div>
+            <div class="about-me-info">
+              <span>Phone</span>
+              <p>+91-8897554843</p>
+            </div>
+            <div class="about-me-info">
+              <span>Address</span>
+              <p>Po Box 2103 Linden, NJ 07036 (USA)</p>
+            </div>
+            <div class="about-me-info">
+              <span>Plan</span>
+              <p>$100</p>
+            </div>
+            <div class="about-me-info">
+              <span>Joined</span>
+              <p>Mon 22nd Feb 2019</p>
+            </div>
+          </div>
+        </aside>
+
+        <div class="main-container">
+          <nav class="main-nav">
+            <ul class="main-nav-list">
+              <li class="active">
+                <ion-icon class="dashboard-icon" name="home"></ion-icon>
+                <a href="#" class="main-nav-link">Dashboard</a>
+              </li>
+              <li>
+                <a href="#" class="main-nav-link">New claims</a>
+              </li>
+              <li>
+                <a href="#" class="main-nav-link">Completed claims</a>
+              </li>
+              <li>
+                <a href="#" class="main-nav-link">Past claims</a>
+              </li>
+              <li>
+                <a href="#" class="main-nav-link">Members</a>
+              </li>
+              <li>
+                <a href="#" class="main-nav-link">My claims</a>
+              </li>
+            </ul>
+            <a href="#" class="btn btn--claim">
+              <img src="icon/banknote.svg" class="icon-pay" />
+              <span>Claim</span>
             </a>
           </nav>
 
-          <div class="profile">
-            <img
-              src="img/profile.png"
-              alt="Photo of Emma"
-              class="profile-img"
-            />
-
-            <div class="bio">
-              <p class="greeting">Hi, Emma good morning 👋</p>
-              <ul class="bio-details">
-                <li class="bio-detail">
-                  <span>Email - </span> akp.emma1231@gmail.com
-                </li>
-                <li class="bio-detail"><span>Phone - </span>+91-8897584843</li>
-                <li class="bio-detail">
-                  <span>Address - </span> Po Box 2103 Linden, NJ 07036 (USA)
-                </li>
-                <li class="bio-detail"><span>Plan - </span> $100</li>
-                <li class="bio-detail">
-                  <span>Joined - </span> Mon 22nd Feb 2019
-                </li>
-              </ul>
+          <div class="dashboard">
+            <div class="claim-card">
+              <span class="claim-number">23</span>
+              <div class="claim-text">
+                <p class="claim-title">New claims</p>
+                <div class="claim-imgs">
+                  <img class="claim-img" src="img/b1.jpg" />
+                  <img class="claim-img" src="img/b3.jpg" />
+                  <img class="claim-img" src="img/b2.jpg" />
+                  <img class="claim-img" src="img/c32.jpg" />
+                </div>
+              </div>
             </div>
 
-            <div class="profile-completion">
-              <div class="progress">
-                <div class="progress-inner"><p>75%</p></div>
+            <div class="claim-card">
+              <span class="claim-number">76</span>
+              <div class="claim-text">
+                <p class="claim-title">New members</p>
+                <div class="claim-imgs">
+                  <img class="claim-img" src="img/b1.jpg" />
+                  <img class="claim-img" src="img/b3.jpg" />
+                  <img class="claim-img" src="img/b2.jpg" />
+                  <img class="claim-img" src="img/c32.jpg" />
+                </div>
               </div>
+            </div>
+
+            <div class="claim-card">
+              <span class="claim-number">102</span>
+              <div class="claim-text">
+                <p class="claim-title">Total claims</p>
+                <div class="claim-imgs">
+                  <img class="claim-img" src="img/b1.jpg" />
+                  <img class="claim-img" src="img/b3.jpg" />
+                  <img class="claim-img" src="img/b2.jpg" />
+                  <img class="claim-img" src="img/c32.jpg" />
+                </div>
+              </div>
+            </div>
+
+            <div class="member">
+              <img
+                class="member-img"
+                src="img/member-1.jpg"
+                alt="Photo of Amelia kimani"
+              />
+
               <div>
-                <p class="title">Profile Completion</p>
-                <p class="request">Please complete profile</p>
-                <a href="#" class="btn btn--complete">Complete</a>
-              </div>
-            </div>
-
-            <button class="camera">
-              <ion-icon class="camera-icon" name="camera-outline"></ion-icon>
-            </button>
-          </div>
-        </header>
-
-        <section class="section">
-          <aside class="about">
-            <div class="about-title">
-              <p>About my family</p>
-              <ion-icon
-                class="about-icon"
-                name="ellipsis-horizontal"
-              ></ion-icon>
-            </div>
-
-            <div class="about-family">
-              <div class="family-category">
-                <p class="family-category-title">Covered persons</p>
-                <div class="family-imgs">
-                  <img class="family-img" src="img/c1.jpg" />
-                  <img class="family-img" src="img/c2.jpg" />
-                </div>
+                <p class="member-name">Amelia Kimani</p>
+                <ul class="member-details">
+                  <li class="member-detail">
+                    <ion-icon
+                      class="icon-filed"
+                      name="calendar-clear-outline"
+                    ></ion-icon>
+                    <span>Filed - </span>
+                    <p>Thu, Jul 10, 2018 7:30 PM EDT</p>
+                  </li>
+                  <li class="member-detail">
+                    <ion-icon
+                      class="icon-due"
+                      name="calendar-outline"
+                    ></ion-icon>
+                    <span>Due - </span>
+                    <p>Wed, Jul 23, 2019 12:30 PM</p>
+                  </li>
+                  <li class="member-detail">
+                    <ion-icon
+                      class="icon-address"
+                      name="location-outline"
+                    ></ion-icon>
+                    <span>Address - </span>
+                    <p>Hillside Rd, Hiranandani...</p>
+                  </li>
+                </ul>
               </div>
 
-              <div class="family-category">
-                <p class="family-category-title">Beneficiary persons</p>
-                <div class="family-imgs">
-                  <img class="family-img" src="img/b1.jpg" />
-                  <img class="family-img" src="img/b2.jpg" />
-                  <img class="family-img" src="img/b3.jpg" />
-                </div>
-              </div>
-
-              <div class="family-category">
-                <p class="family-category-title">Emergency persons</p>
-                <div class="family-imgs">
-                  <img class="family-img" src="img/e1.jpg" />
-                  <img class="family-img" src="img/e2.jpg" />
-                  <img class="family-img" src="img/e3.jpg" />
-                  <img class="family-img" src="img/profile.png" />
-                </div>
-              </div>
-            </div>
-
-            <div class="about-title">
-              <p>About me</p>
-              <ion-icon
-                class="about-icon"
-                name="ellipsis-horizontal"
-              ></ion-icon>
-            </div>
-
-            <div class="about-me">
-              <div class="about-me-info">
-                <span>Email</span>
-                <p>akp.emma1231@gmail.com</p>
-              </div>
-              <div class="about-me-info">
-                <span>Phone</span>
-                <p>+91-8897554843</p>
-              </div>
-              <div class="about-me-info">
-                <span>Address</span>
-                <p>Po Box 2103 Linden, NJ 07036 (USA)</p>
-              </div>
-              <div class="about-me-info">
-                <span>Plan</span>
-                <p>$100</p>
-              </div>
-              <div class="about-me-info">
-                <span>Joined</span>
-                <p>Mon 22nd Feb 2019</p>
-              </div>
-            </div>
-          </aside>
-
-          <div class="main-container">
-            <nav class="main-nav">
-              <ul class="main-nav-list">
-                <li>
-                  <ion-icon class="dashboard-icon" name="home"></ion-icon>
-                  <a href="#" class="main-nav-link">Dashboard</a>
-                </li>
-                <li>
-                  <a href="#" class="main-nav-link">New claims</a>
-                </li>
-                <li>
-                  <a href="#" class="main-nav-link">Completed claims</a>
-                </li>
-                <li>
-                  <a href="#" class="main-nav-link">Past claims</a>
-                </li>
-                <li>
-                  <a href="#" class="main-nav-link">Members</a>
-                </li>
-                <li>
-                  <a href="#" class="main-nav-link">My claims</a>
-                </li>
-              </ul>
-              <a href="#" class="btn btn--claim">
+              <a href="#" class="btn btn--pay">
                 <img src="icon/banknote.svg" class="icon-pay" />
-                <span>Claim</span>
+                <span>Pay</span>
               </a>
-            </nav>
+            </div>
 
-            <div class="dashboard">
-              <div class="claim-card">
-                <span class="claim-number">23</span>
-                <div class="claim-text">
-                  <p class="claim-title">New claims</p>
-                  <div class="claim-imgs">
-                    <img class="claim-img" src="img/b1.jpg" />
-                    <img class="claim-img" src="img/b3.jpg" />
-                    <img class="claim-img" src="img/b2.jpg" />
-                    <img class="claim-img" src="img/c32.jpg" />
-                  </div>
-                </div>
+            <div class="member">
+              <img
+                class="member-img"
+                src="img/member-2.jpeg"
+                alt="Photo of Genevieve Juma"
+              />
+
+              <div>
+                <p class="member-name">Genevieve Juma</p>
+                <ul class="member-details">
+                  <li class="member-detail">
+                    <ion-icon
+                      class="icon-filed"
+                      name="calendar-clear-outline"
+                    ></ion-icon>
+                    <span>Filed - </span>
+                    <p>Thu, Jul 10, 2018 7:30 PM EDT</p>
+                  </li>
+                  <li class="member-detail">
+                    <ion-icon
+                      class="icon-due"
+                      name="calendar-outline"
+                    ></ion-icon>
+                    <span>Due - </span>
+                    <p>Wed, Jul 23, 2019 12:30 PM</p>
+                  </li>
+                  <li class="member-detail">
+                    <ion-icon
+                      class="icon-address"
+                      name="location-outline"
+                    ></ion-icon>
+                    <span>Address - </span>
+                    <p>Hillside Rd, Hiranandani...</p>
+                  </li>
+                </ul>
               </div>
 
-              <div class="claim-card">
-                <span class="claim-number">76</span>
-                <div class="claim-text">
-                  <p class="claim-title">New members</p>
-                  <div class="claim-imgs">
-                    <img class="claim-img" src="img/b1.jpg" />
-                    <img class="claim-img" src="img/b3.jpg" />
-                    <img class="claim-img" src="img/b2.jpg" />
-                    <img class="claim-img" src="img/c32.jpg" />
-                  </div>
-                </div>
+              <a href="#" class="btn btn--pay">
+                <img src="icon/banknote.svg" class="icon-pay" />
+                <span>Pay</span>
+              </a>
+            </div>
+            <div class="member">
+              <img
+                class="member-img"
+                src="img/member-3.png"
+                alt="Photo of Theodore Wachira"
+              />
+
+              <div>
+                <p class="member-name">Theodore Wachira</p>
+                <ul class="member-details">
+                  <li class="member-detail">
+                    <ion-icon
+                      class="icon-filed"
+                      name="calendar-clear-outline"
+                    ></ion-icon>
+                    <span>Filed - </span>
+                    <p>Thu, Jul 10, 2018 7:30 PM EDT</p>
+                  </li>
+                  <li class="member-detail">
+                    <ion-icon
+                      class="icon-due"
+                      name="calendar-outline"
+                    ></ion-icon>
+                    <span>Due - </span>
+                    <p>Wed, Jul 23, 2019 12:30 PM</p>
+                  </li>
+                  <li class="member-detail">
+                    <ion-icon
+                      class="icon-address"
+                      name="location-outline"
+                    ></ion-icon>
+                    <span>Address - </span>
+                    <p>Hillside Rd, Hiranandani...</p>
+                  </li>
+                </ul>
               </div>
 
-              <div class="claim-card">
-                <span class="claim-number">102</span>
-                <div class="claim-text">
-                  <p class="claim-title">Total claims</p>
-                  <div class="claim-imgs">
-                    <img class="claim-img" src="img/b1.jpg" />
-                    <img class="claim-img" src="img/b3.jpg" />
-                    <img class="claim-img" src="img/b2.jpg" />
-                    <img class="claim-img" src="img/c32.jpg" />
-                  </div>
-                </div>
-              </div>
+              <a href="#" class="btn btn--pay">
+                <img src="icon/banknote.svg" class="icon-pay" />
+                <span>Pay</span>
+              </a>
+            </div>
 
-              <div class="member">
-                <img
-                  class="member-img"
-                  src="img/member-1.jpg"
-                  alt="Photo of Amelia kimani"
-                />
+            <div class="activity-section">
+              <p class="activity-heading">Activity</p>
 
-                <div>
-                  <p class="member-name">Amelia Kimani</p>
-                  <ul class="member-details">
-                    <li class="member-detail">
-                      <ion-icon
-                        class="icon-filed"
-                        name="calendar-clear-outline"
-                      ></ion-icon>
-                      <span>Filed - </span>
-                      <p>Thu, Jul 10, 2018 7:30 PM EDT</p>
-                    </li>
-                    <li class="member-detail">
-                      <ion-icon
-                        class="icon-due"
-                        name="calendar-outline"
-                      ></ion-icon>
-                      <span>Due - </span>
-                      <p>Wed, Jul 23, 2019 12:30 PM</p>
-                    </li>
-                    <li class="member-detail">
-                      <ion-icon
-                        class="icon-address"
-                        name="location-outline"
-                      ></ion-icon>
-                      <span>Address - </span>
-                      <p>Hillside Rd, Hiranandani...</p>
-                    </li>
-                  </ul>
+              <div class="activities">
+                <div class="activity">
+                  <div class="activity-bullet"></div>
+                  <p class="activity-title">Claimed $2000</p>
+                  <p class="activity-description">
+                    23 members are got claimed in washington DC
+                  </p>
+                  <p class="activity-time">05:40pm</p>
                 </div>
 
-                <a href="#" class="btn btn--pay">
-                  <img src="icon/banknote.svg" class="icon-pay" />
-                  <span>Pay</span>
-                </a>
-              </div>
-
-              <div class="member">
-                <img
-                  class="member-img"
-                  src="img/member-2.jpeg"
-                  alt="Photo of Genevieve Juma"
-                />
-
-                <div>
-                  <p class="member-name">Genevieve Juma</p>
-                  <ul class="member-details">
-                    <li class="member-detail">
-                      <ion-icon
-                        class="icon-filed"
-                        name="calendar-clear-outline"
-                      ></ion-icon>
-                      <span>Filed - </span>
-                      <p>Thu, Jul 10, 2018 7:30 PM EDT</p>
-                    </li>
-                    <li class="member-detail">
-                      <ion-icon
-                        class="icon-due"
-                        name="calendar-outline"
-                      ></ion-icon>
-                      <span>Due - </span>
-                      <p>Wed, Jul 23, 2019 12:30 PM</p>
-                    </li>
-                    <li class="member-detail">
-                      <ion-icon
-                        class="icon-address"
-                        name="location-outline"
-                      ></ion-icon>
-                      <span>Address - </span>
-                      <p>Hillside Rd, Hiranandani...</p>
-                    </li>
-                  </ul>
+                <div class="activity">
+                  <div class="activity-bullet"></div>
+                  <p class="activity-title">102 New Members</p>
+                  <p class="activity-description">
+                    We have 102 registrations check out their profiles
+                  </p>
+                  <p class="activity-time">05:40pm</p>
                 </div>
 
-                <a href="#" class="btn btn--pay">
-                  <img src="icon/banknote.svg" class="icon-pay" />
-                  <span>Pay</span>
-                </a>
-              </div>
-              <div class="member">
-                <img
-                  class="member-img"
-                  src="img/member-3.png"
-                  alt="Photo of Theodore Wachira"
-                />
-
-                <div>
-                  <p class="member-name">Theodore Wachira</p>
-                  <ul class="member-details">
-                    <li class="member-detail">
-                      <ion-icon
-                        class="icon-filed"
-                        name="calendar-clear-outline"
-                      ></ion-icon>
-                      <span>Filed - </span>
-                      <p>Thu, Jul 10, 2018 7:30 PM EDT</p>
-                    </li>
-                    <li class="member-detail">
-                      <ion-icon
-                        class="icon-due"
-                        name="calendar-outline"
-                      ></ion-icon>
-                      <span>Due - </span>
-                      <p>Wed, Jul 23, 2019 12:30 PM</p>
-                    </li>
-                    <li class="member-detail">
-                      <ion-icon
-                        class="icon-address"
-                        name="location-outline"
-                      ></ion-icon>
-                      <span>Address - </span>
-                      <p>Hillside Rd, Hiranandani...</p>
-                    </li>
-                  </ul>
+                <div class="activity">
+                  <div class="activity-bullet"></div>
+                  <p class="activity-title">3 Claims are waiting</p>
+                  <p class="activity-description">
+                    Please contribute them, they are Waiting for your help
+                  </p>
+                  <p class="activity-time">05:40pm</p>
                 </div>
 
-                <a href="#" class="btn btn--pay">
-                  <img src="icon/banknote.svg" class="icon-pay" />
-                  <span>Pay</span>
-                </a>
-              </div>
+                <div class="activity">
+                  <div class="activity-bullet"></div>
+                  <p class="activity-title">102 New Members</p>
+                  <p class="activity-description">
+                    We have 102 registrations check out their profiles
+                  </p>
+                  <p class="activity-time">05:40pm</p>
+                </div>
 
-              <div class="activity-section">
-                <p class="activity-heading">Activity</p>
+                <div class="activity">
+                  <div class="activity-bullet"></div>
+                  <p class="activity-title">Claimed $2000</p>
+                  <p class="activity-description">
+                    23 members are got claimed in washington DC
+                  </p>
+                  <p class="activity-time">05:40pm</p>
+                </div>
 
-                <div class="activities">
-                  <div class="activity">
-                    <div class="activity-bullet"></div>
-                    <p class="activity-title">Claimed $2000</p>
-                    <p class="activity-description">
-                      23 members are got claimed in washington DC
-                    </p>
-                    <p class="activity-time">05:40pm</p>
-                  </div>
+                <div class="activity">
+                  <div class="activity-bullet"></div>
+                  <p class="activity-title">102 New Members</p>
+                  <p class="activity-description">
+                    We have 102 registrations check out their profiles
+                  </p>
+                  <p class="activity-time">05:40pm</p>
+                </div>
 
-                  <div class="activity">
-                    <div class="activity-bullet"></div>
-                    <p class="activity-title">102 New Members</p>
-                    <p class="activity-description">
-                      We have 102 registrations check out their profiles
-                    </p>
-                    <p class="activity-time">05:40pm</p>
-                  </div>
+                <div class="activity">
+                  <div class="activity-bullet"></div>
+                  <p class="activity-title">3 Claims are waiting</p>
+                  <p class="activity-description">
+                    Please contribute them, they are Waiting for your help
+                  </p>
+                  <p class="activity-time">05:40pm</p>
+                </div>
 
-                  <div class="activity">
-                    <div class="activity-bullet"></div>
-                    <p class="activity-title">3 Claims are waiting</p>
-                    <p class="activity-description">
-                      Please contribute them, they are Waiting for your help
-                    </p>
-                    <p class="activity-time">05:40pm</p>
-                  </div>
+                <div class="activity">
+                  <div class="activity-bullet"></div>
+                  <p class="activity-title">102 New Members</p>
+                  <p class="activity-description">
+                    We have 102 registrations check out their profiles
+                  </p>
+                  <p class="activity-time">05:40pm</p>
+                </div>
 
-                  <div class="activity">
-                    <div class="activity-bullet"></div>
-                    <p class="activity-title">102 New Members</p>
-                    <p class="activity-description">
-                      We have 102 registrations check out their profiles
-                    </p>
-                    <p class="activity-time">05:40pm</p>
-                  </div>
+                <div class="activity">
+                  <div class="activity-bullet"></div>
+                  <p class="activity-title">Claimed $2000</p>
+                  <p class="activity-description">
+                    23 members are got claimed in washington DC
+                  </p>
+                  <p class="activity-time">05:40pm</p>
+                </div>
+
+                <div class="activity">
+                  <div class="activity-bullet"></div>
+                  <p class="activity-title">102 New Members</p>
+                  <p class="activity-description">
+                    We have 102 registrations check out their profiles
+                  </p>
+                  <p class="activity-time">05:40pm</p>
+                </div>
+
+                <div class="activity">
+                  <div class="activity-bullet"></div>
+                  <p class="activity-title">3 Claims are waiting</p>
+                  <p class="activity-description">
+                    Please contribute them, they are Waiting for your help
+                  </p>
+                  <p class="activity-time">05:40pm</p>
+                </div>
+
+                <div class="activity">
+                  <div class="activity-bullet"></div>
+                  <p class="activity-title">102 New Members</p>
+                  <p class="activity-description">
+                    We have 102 registrations check out their profiles
+                  </p>
+                  <p class="activity-time">05:40pm</p>
+                </div>
+
+                <div class="activity">
+                  <div class="activity-bullet"></div>
+                  <p class="activity-title">Claimed $2000</p>
+                  <p class="activity-description">
+                    23 members are got claimed in washington DC
+                  </p>
+                  <p class="activity-time">05:40pm</p>
+                </div>
+
+                <div class="activity">
+                  <div class="activity-bullet"></div>
+                  <p class="activity-title">102 New Members</p>
+                  <p class="activity-description">
+                    We have 102 registrations check out their profiles
+                  </p>
+                  <p class="activity-time">05:40pm</p>
+                </div>
+
+                <div class="activity">
+                  <div class="activity-bullet"></div>
+                  <p class="activity-title">3 Claims are waiting</p>
+                  <p class="activity-description">
+                    Please contribute them, they are Waiting for your help
+                  </p>
+                  <p class="activity-time">05:40pm</p>
+                </div>
+
+                <div class="activity">
+                  <div class="activity-bullet"></div>
+                  <p class="activity-title">102 New Members</p>
+                  <p class="activity-description">
+                    We have 102 registrations check out their profiles
+                  </p>
+                  <p class="activity-time">05:40pm</p>
+                </div>
+
+                <div class="activity">
+                  <div class="activity-bullet"></div>
+                  <p class="activity-title">Claimed $2000</p>
+                  <p class="activity-description">
+                    23 members are got claimed in washington DC
+                  </p>
+                  <p class="activity-time">05:40pm</p>
+                </div>
+
+                <div class="activity">
+                  <div class="activity-bullet"></div>
+                  <p class="activity-title">102 New Members</p>
+                  <p class="activity-description">
+                    We have 102 registrations check out their profiles
+                  </p>
+                  <p class="activity-time">05:40pm</p>
+                </div>
+
+                <div class="activity">
+                  <div class="activity-bullet"></div>
+                  <p class="activity-title">3 Claims are waiting</p>
+                  <p class="activity-description">
+                    Please contribute them, they are Waiting for your help
+                  </p>
+                  <p class="activity-time">05:40pm</p>
+                </div>
+
+                <div class="activity">
+                  <div class="activity-bullet"></div>
+                  <p class="activity-title">102 New Members</p>
+                  <p class="activity-description">
+                    We have 102 registrations check out their profiles
+                  </p>
+                  <p class="activity-time">05:40pm</p>
+                </div>
+
+                <div class="activity">
+                  <div class="activity-bullet"></div>
+                  <p class="activity-title">Claimed $2000</p>
+                  <p class="activity-description">
+                    23 members are got claimed in washington DC
+                  </p>
+                  <p class="activity-time">05:40pm</p>
+                </div>
+
+                <div class="activity">
+                  <div class="activity-bullet"></div>
+                  <p class="activity-title">102 New Members</p>
+                  <p class="activity-description">
+                    We have 102 registrations check out their profiles
+                  </p>
+                  <p class="activity-time">05:40pm</p>
+                </div>
+
+                <div class="activity">
+                  <div class="activity-bullet"></div>
+                  <p class="activity-title">3 Claims are waiting</p>
+                  <p class="activity-description">
+                    Please contribute them, they are Waiting for your help
+                  </p>
+                  <p class="activity-time">05:40pm</p>
+                </div>
+
+                <div class="activity">
+                  <div class="activity-bullet"></div>
+                  <p class="activity-title">102 New Members</p>
+                  <p class="activity-description">
+                    We have 102 registrations check out their profiles
+                  </p>
+                  <p class="activity-time">05:40pm</p>
+                </div>
+
+                <div class="activity">
+                  <div class="activity-bullet"></div>
+                  <p class="activity-title">Claimed $2000</p>
+                  <p class="activity-description">
+                    23 members are got claimed in washington DC
+                  </p>
+                  <p class="activity-time">05:40pm</p>
+                </div>
+
+                <div class="activity">
+                  <div class="activity-bullet"></div>
+                  <p class="activity-title">102 New Members</p>
+                  <p class="activity-description">
+                    We have 102 registrations check out their profiles
+                  </p>
+                  <p class="activity-time">05:40pm</p>
+                </div>
+
+                <div class="activity">
+                  <div class="activity-bullet"></div>
+                  <p class="activity-title">3 Claims are waiting</p>
+                  <p class="activity-description">
+                    Please contribute them, they are Waiting for your help
+                  </p>
+                  <p class="activity-time">05:40pm</p>
+                </div>
+
+                <div class="activity">
+                  <div class="activity-bullet"></div>
+                  <p class="activity-title">102 New Members</p>
+                  <p class="activity-description">
+                    We have 102 registrations check out their profiles
+                  </p>
+                  <p class="activity-time">05:40pm</p>
+                </div>
+
+                <div class="activity">
+                  <div class="activity-bullet"></div>
+                  <p class="activity-title">Claimed $2000</p>
+                  <p class="activity-description">
+                    23 members are got claimed in washington DC
+                  </p>
+                  <p class="activity-time">05:40pm</p>
+                </div>
+
+                <div class="activity">
+                  <div class="activity-bullet"></div>
+                  <p class="activity-title">102 New Members</p>
+                  <p class="activity-description">
+                    We have 102 registrations check out their profiles
+                  </p>
+                  <p class="activity-time">05:40pm</p>
+                </div>
+
+                <div class="activity">
+                  <div class="activity-bullet"></div>
+                  <p class="activity-title">3 Claims are waiting</p>
+                  <p class="activity-description">
+                    Please contribute them, they are Waiting for your help
+                  </p>
+                  <p class="activity-time">05:40pm</p>
+                </div>
+
+                <div class="activity">
+                  <div class="activity-bullet"></div>
+                  <p class="activity-title">102 New Members</p>
+                  <p class="activity-description">
+                    We have 102 registrations check out their profiles
+                  </p>
+                  <p class="activity-time">05:40pm</p>
+                </div>
+
+                <div class="activity">
+                  <div class="activity-bullet"></div>
+                  <p class="activity-title">Claimed $2000</p>
+                  <p class="activity-description">
+                    23 members are got claimed in washington DC
+                  </p>
+                  <p class="activity-time">05:40pm</p>
+                </div>
+
+                <div class="activity">
+                  <div class="activity-bullet"></div>
+                  <p class="activity-title">102 New Members</p>
+                  <p class="activity-description">
+                    We have 102 registrations check out their profiles
+                  </p>
+                  <p class="activity-time">05:40pm</p>
+                </div>
+
+                <div class="activity">
+                  <div class="activity-bullet"></div>
+                  <p class="activity-title">3 Claims are waiting</p>
+                  <p class="activity-description">
+                    Please contribute them, they are Waiting for your help
+                  </p>
+                  <p class="activity-time">05:40pm</p>
+                </div>
+
+                <div class="activity">
+                  <div class="activity-bullet"></div>
+                  <p class="activity-title">102 New Members</p>
+                  <p class="activity-description">
+                    We have 102 registrations check out their profiles
+                  </p>
+                  <p class="activity-time">05:40pm</p>
+                </div>
+
+                <div class="activity">
+                  <div class="activity-bullet"></div>
+                  <p class="activity-title">Claimed $2000</p>
+                  <p class="activity-description">
+                    23 members are got claimed in washington DC
+                  </p>
+                  <p class="activity-time">05:40pm</p>
+                </div>
+
+                <div class="activity">
+                  <div class="activity-bullet"></div>
+                  <p class="activity-title">102 New Members</p>
+                  <p class="activity-description">
+                    We have 102 registrations check out their profiles
+                  </p>
+                  <p class="activity-time">05:40pm</p>
+                </div>
+
+                <div class="activity">
+                  <div class="activity-bullet"></div>
+                  <p class="activity-title">3 Claims are waiting</p>
+                  <p class="activity-description">
+                    Please contribute them, they are Waiting for your help
+                  </p>
+                  <p class="activity-time">05:40pm</p>
+                </div>
+
+                <div class="activity">
+                  <div class="activity-bullet"></div>
+                  <p class="activity-title">102 New Members</p>
+                  <p class="activity-description">
+                    We have 102 registrations check out their profiles
+                  </p>
+                  <p class="activity-time">05:40pm</p>
                 </div>
               </div>
             </div>
           </div>
-        </section>
-      </div>
+        </div>
+      </section>
+    </div>
 
-      <!-- BACKGROUND -->
+    <!-- BACKGROUND
       <div class="bg bg-1"></div>
       <div class="bg bg-2"></div>
       <div class="bg bg-3"></div>
@@ -408,7 +722,7 @@
       <div class="bg bg-6"></div>
       <div class="bg bg-7"></div>
       <div class="bg bg-8"></div>
-    </div>
+    </div> -->
 
     <script
       type="module"
